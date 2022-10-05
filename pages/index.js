@@ -1,10 +1,12 @@
-import Link from 'next/link'
+//import Link from 'next/link'
+import Topo from './topo'
+import Rodape from './rodape'
 export default function Home() {
   return (
     <>
-      <h1>Ola</h1>
-      <hr/>
-      <Link href = "http://www.google.com.br" target="_blank"> google </Link>
+     <Topo/>
+     <h3>Simbora foi essa joça</h3>
+     <Rodape/>
     </>
   )
 }
